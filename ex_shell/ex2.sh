@@ -1,5 +1,7 @@
 #!/bin/bash
-cd sites-ran-bre01-ran-j11 ex_shell
-cat iron_man.txt
-cat batman.txt
-chmod +x ex2.sh
+
+cat marvel/iron_man.txt && echo '' && cat dc/batman.txt && echo''
+
+# ou
+
+#cat marvel/iron_man.txt... #
